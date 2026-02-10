@@ -1,4 +1,4 @@
-<project name="DataExpression" default="Compile Sources" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="DataDiscovery" default="Compile Sources" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 	<!-- set global properties for this build -->
 	<property environment="env" />
 	<property name="src" location="src" />
@@ -8,13 +8,13 @@
 	<property name="dist" location="dist" />
 	<property name="release" location="latestrelease" />
 	<property name="version" value="${env.major_minor}.${env.GITHUB_RUN_NUMBER}" />
-	<property name="project" value="DataExpression" />
+	<property name="project" value="DataDiscovery" />
 
 	<property name="author" value="F. Mannhardt" />
 	<property name="organization" value="Eindhoven University of Technology" />
-	<property name="description" value="Provides data expressions (aka. guards)." />
+	<property name="description" value="DataDiscovery" />
 	<!-- See https://svn.win.tue.nl/trac/prom/browser/Packages/ProM-Contexts/Trunk/src/org/processmining/contexts/uitopia/packagemanager/PMPackageView.java for a list of known licenses. -->
-	<property name="license" value="L-GPL" />
+	<property name="license" value="GPL" />
 	<property name="logo" value="prom_subtitle_hat_300.png" />
 
 	<property name="ivy.lib.dir" value="ivy" />
